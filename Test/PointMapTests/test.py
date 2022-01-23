@@ -18,11 +18,11 @@ def downsample_image(image, reduce_factor):
 
 
 
-path_model = "models/"
+path_model = "model/"
 
 # Read Network
-model_name = "model-f6b98070.onnx"; # MiDaS v2.1 Large
-#model_name = "model-small.onnx"; # MiDaS v2.1 Small
+#model_name = "model-f6b98070.onnx"; # MiDaS v2.1 Large
+#model_name = "midas.pt"; # MiDaS v2.1 Small
 
 
 # Load the DNN model
